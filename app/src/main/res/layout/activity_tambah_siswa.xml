@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TambahSiswaActivty">
+    <TextView
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tambah Data Siswa"
+        android:background="@color/bg_header"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textColor="#000"
+        android:fontFamily="@font/gotham"/>
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/logo"
+        android:layout_marginTop="10dp"
+        android:background="#F3EFEF"
+        android:layout_centerInParent="true"
+        android:src="@drawable/nfc1"
+        android:padding="30dp"
+        android:layout_height="300dp"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_gravity="center"
+        tools:ignore="ContentDescription"/>
+    <EditText
+        android:inputType="number"
+        android:maxLength="6"
+        android:visibility="visible"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="NIS"
+        android:id="@+id/stb"/>
+    <EditText
+        android:visibility="visible"
+        android:layout_marginHorizontal="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama Lengkap"
+        android:id="@+id/namalengkap"/>
+    <Spinner
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Pilih Kelas"
+        android:layout_marginHorizontal="20dp"
+        android:entries="@array/jenis_kelamin"
+        android:paddingVertical="10dp"
+        android:id="@+id/spinner_jkl"/>
+    <Spinner
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Pilih Kelas"
+        android:layout_marginHorizontal="20dp"
+        android:entries="@array/daftar_kelas"
+        android:paddingVertical="10dp"
+        android:id="@+id/spinner_kelas"/>
+    <TextView
+        android:layout_marginHorizontal="20dp"
+        android:id="@+id/info"
+        android:layout_marginTop="20dp"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:text="SILAHKAN TEMPELKAN KARTU UNTUK REGISTRASI"
+        android:gravity="center"
+        android:fontFamily="@font/gotham"
+        android:textSize="20sp"
+        android:background="@color/purple_200"
+        android:textColor="@color/white"/>
+    <Button
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Simpan Data"
+        android:id="@+id/btn_sinpanData"
+        android:layout_marginHorizontal="20dp"
+        style="@style/Animation.Design.BottomSheetDialog"/>
+</LinearLayout>

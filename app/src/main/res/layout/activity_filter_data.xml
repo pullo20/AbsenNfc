@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:paddingHorizontal="50dp"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FilterDataActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/gotham"
+        android:gravity="center"
+        android:text="Filter Data"
+        android:textColor="#000"
+        android:textSize="25sp" />
+    <TextView
+        android:textSize="18sp"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Pilih Tanggal"
+        android:id="@+id/filter_tgl"/>
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Mata Pelajaran"
+        android:entries="@array/daftar_matpel"
+        android:paddingVertical="10dp"
+        android:id="@+id/filter_matpel"/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Pilih Kelas"
+        android:entries="@array/daftar_kelas"
+        android:paddingVertical="10dp"
+        android:id="@+id/filter_kelas"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lihat data"
+        style="@style/Animation.Design.BottomSheetDialog"
+        android:layout_marginTop="20dp"
+        android:id="@+id/btn_lihat_data"/>
+</LinearLayout>

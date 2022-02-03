@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:paddingHorizontal="50dp"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FormAbsensiActivity">
+    <TextView
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Form Absensi"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textColor="#000"
+        android:fontFamily="@font/gotham"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Nama Guru"
+        android:id="@+id/nama_guru"/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Pilih Mata Pelajaran"
+        android:entries="@array/daftar_matpel"
+        android:paddingVertical="10dp"
+        android:id="@+id/matpel"/>
+
+    <Spinner
+        android:id="@+id/spinner_absenkelas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/daftar_kelas"
+        android:hint="Pilih Kelas"
+        android:paddingVertical="10dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="mulai absensi"
+        style="@style/Animation.Design.BottomSheetDialog"
+        android:layout_marginTop="20dp"
+        android:id="@+id/btn_absen"/>
+</LinearLayout>

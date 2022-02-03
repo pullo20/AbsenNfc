@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DaftarAbsensiActivity">
+    <TextView
+        android:id="@+id/head_absen"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TAP KARTU"
+        android:background="@color/bg_header"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textColor="#000"
+        android:fontFamily="@font/gotham"/>
+<!--    <androidx.recyclerview.widget.RecyclerView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:id="@+id/ryc_daftar_absen"/>-->
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/logo"
+        android:layout_marginTop="10dp"
+        android:background="#F3EFEF"
+        android:layout_centerInParent="true"
+        android:src="@drawable/nfc1"
+        android:padding="30dp"
+        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        tools:ignore="ContentDescription"/>
+</LinearLayout>

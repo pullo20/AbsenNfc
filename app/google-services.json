@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "471503870547",
+    "project_id": "absensi420",
+    "storage_bucket": "absensi420.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:471503870547:android:c244a1e590b9054a4c44a6",
+        "android_client_info": {
+          "package_name": "com.pulo.absensi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "471503870547-f2b8scv6v49d7ibsou9s7ph3534sedfi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBWOIWgqV9lTZXkDJY3bxNWhLjljTY9Us"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "471503870547-f2b8scv6v49d7ibsou9s7ph3534sedfi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

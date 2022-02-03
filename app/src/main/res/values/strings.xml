@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Absensi</string>
+    <string-array name="daftar_kelas">
+        <item>Pilih Kelas</item>
+        <item>Kelas A</item>
+        <item>Kelas B</item>
+        <item>Kelas C</item>
+        <item>Kelas D</item>
+        <item>Kelas E</item>
+        <item>Kelas F</item>
+    </string-array>
+    <string-array name="daftar_matpel">
+        <item>Pilih Mata Pelajaran</item>
+        <item>Bhs. Indonesia</item>
+        <item>Bhs. Ingris</item>
+        <item>Matematika</item>
+        <item>Biologi</item>
+        <item>Sejarah</item>
+        <item>Kimia</item>
+        <item>Agama</item>
+        <item>Fisika</item>
+    </string-array>
+    <string-array name="jenis_kelamin">
+        <item>Jenis Kelamin</item>
+        <item>Laki-Laki</item>
+        <item>Perempuan</item>
+    </string-array>
+</resources>
